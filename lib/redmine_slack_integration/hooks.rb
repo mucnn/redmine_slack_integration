@@ -1,5 +1,3 @@
-require 'httpclient'
-
 module RedmineSlackIntegration
   class Hooks < Redmine::Hook::ViewListener
     CHARLIMIT = 1000
